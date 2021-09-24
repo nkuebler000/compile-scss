@@ -1,0 +1,16 @@
+{
+  "name": "compile-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node sass --path='assets/scss/main.scss' --mode=production",
+    "main-dev": "node sass --path='assets/scss/main.scss'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.42.1",
+    "yargs": "^17.2.0"
+  }
+}
